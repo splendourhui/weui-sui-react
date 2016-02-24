@@ -9,8 +9,12 @@ WeUI-SUI-React
 
 ###WeUI-SUI-React
 整合两个UI框架，使用 `React` 来构建界面。
+
 ###使用
 需要自行引入 `weui.min.css` `sm.min.css` `zepto.min.js` `sm.min.js` 四个静态文件，推荐使用 CDN
 ```
 npm install weui-sui-react
 ```
+
+### 文档
+- [Header](./docs/Header.md)
