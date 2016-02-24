@@ -1,0 +1,18 @@
+{
+  "name": "weui-sui-react",
+  "version": "0.0.1",
+  "description": "React Components of weui and sui",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*"
+  },
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "author": "Splendour",
+  "license": "ISC"
+}
