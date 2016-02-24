@@ -2,7 +2,7 @@ WeUI-SUI-React
 ====
 
 ###WeUI
-[WeUI](https://github.com/weui/weui](https://github.com/weui/weui) 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信 Web 开发量身设计，可以令用户的使用感知更加统一。
+[WeUI](https://github.com/weui/weui) 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信 Web 开发量身设计，可以令用户的使用感知更加统一。
 
 ###SUI
 [SUI Mobile](http://m.sui.taobao.org/) 是阿里巴巴国际UED前端团队出品的移动端  __UI库__。
