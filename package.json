@@ -1,6 +1,6 @@
 {
   "name": "weui-sui-react",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "React Components of weui and sui",
   "main": "index.js",
   "dependencies": {
