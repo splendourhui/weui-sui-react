@@ -1,4 +1,4 @@
-### TabBar
+### SUITabBar
 
 标签栏组件
 
@@ -23,7 +23,7 @@ href | string | 否 | 不限制 | 点击后跳转的 URL
 ``` JavaScript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { TabBar } from 'weui-sui-react';
+import { SUITabBar } from 'weui-sui-react';
 
 const tabItems = [
   {
@@ -39,7 +39,7 @@ const tabItems = [
 ];
 
 ReactDOM.render((
-  <TabBar
+  <SUITabBar
     items = {tabItems}
   />
 ), document.getElementById('container'));

@@ -1,8 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 
-import TabItem from './TabItem';
+import SUITabItem from './SUITabItem';
 
-class TabBar extends Component {
+class SUITabBar extends Component {
   constructor(props) {
     super(props);
   }
@@ -13,7 +13,7 @@ class TabBar extends Component {
     let tabItems = [];
     items.forEach(item => {
       tabItems.push(
-        <TabItem key={`tab-bar-item-${item.title}-${item.icon}`} data={item} />
+        <SUITabItem key={`tab-bar-item-${item.title}-${item.icon}`} data={item} />
       );
     });
 
@@ -25,8 +25,8 @@ class TabBar extends Component {
   }
 }
 
-TabBar.propTypes = {
+SUITabBar.propTypes = {
   items: PropTypes.array.isRequired,
 };
 
-export default TabBar;
+module.exports = SUITabBar;

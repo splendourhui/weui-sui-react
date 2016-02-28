@@ -1,9 +1,5 @@
 'use strict'
 
-var Header = require('./lib/Header');
-var TabBar = require('./lib/TabBar');
-var TabItem = require('./lib/TabItem');
-
-exports.Header = Header;
-exports.TabBar = TabBar;
-exports.TabItem = TabItem;
+exports.SUIHeader = require('./lib/SUIHeader');
+exports.SUITabBar = require('./lib/SUITabBar');
+exports.SUITabItem = require('./lib/SUITabItem');

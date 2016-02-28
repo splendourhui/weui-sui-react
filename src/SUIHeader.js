@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 
-class Header extends Component {
+class SUIHeader extends Component {
   constructor(props) {
     super(props);
   }
@@ -92,7 +92,7 @@ class Header extends Component {
   }
 }
 
-Header.propTypes = {
+SUIHeader.propTypes = {
   title: PropTypes.string.isRequired,
   backgroundColor: PropTypes.string,
   titleColor: PropTypes.string,
@@ -102,4 +102,4 @@ Header.propTypes = {
   rightButtonWithIcon: PropTypes.object,
 };
 
-export default Header;
+module.exports = SUIHeader;

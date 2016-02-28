@@ -1,4 +1,4 @@
-### Header
+### SUIHeader
 
 标题栏组件，可以自定义颜色、文案以及左右按钮和链接。
 
@@ -35,10 +35,10 @@ extraClass | string | 否 | 不限制 | 按钮额外属性
 ``` JavaScript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Header } from 'weui-sui-react';
+import { SUIHeader } from 'weui-sui-react';
 
 ReactDOM.render((
-  <Header
+  <SUIHeader
     title="IndexPage"
     backgroundColor="#04BE02"
     titleColor="#FFFFFF"

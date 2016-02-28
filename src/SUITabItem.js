@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 
-class TabItem extends Component {
+class SUITabItem extends Component {
   constructor(props) {
     super(props);
   }
@@ -43,8 +43,8 @@ class TabItem extends Component {
   }
 }
 
-TabItem.propTypes = {
+SUITabItem.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default TabItem;
+module.exports = SUITabItem;

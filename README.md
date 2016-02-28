@@ -17,5 +17,5 @@ npm install weui-sui-react
 ```
 
 ### 文档
-- [Header](./docs/Header.md)
-- [TabBar](./docs/TabBar.md)
+- [SUIHeader](./docs/SUIHeader.md)
+- [SUITabBar](./docs/SUITabBar.md)
